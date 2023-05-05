@@ -20,3 +20,16 @@ loyiha davomida kelishib yana qo'shimchalar qo'shamiz.
 
 "style/" -> Barcha yangi sahifa uchun stillar shu papkada yozilishi kerak.
 
+# GitHubga ma'lumotlarni yuklash
+
+1: git status
+
+2: git add .
+
+3: git status
+
+4: git commit -m "Qilingan ish mavmuni yoziladi"
+
+5: git pull
+
+6: git push
