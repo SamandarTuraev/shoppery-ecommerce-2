@@ -12,8 +12,8 @@ loyiha davomida kelishib yana qo'shimchalar qo'shamiz.
 
 # Loyiha strukturasi:
 
-"index.html" -> Bu asosiy html fayl 'bosh sahifa' shu yerda bo'ladi 
-"pages/" -> Qolgan barcha sahifalar quyidagi papkaga saqlanadi 
-"images/" -> Rasmlar shu yerda saqlanadi 
-"style/" -> Barcha yangi sahifa uchun stillar shu papkada yozilishi kerak 
+"index.html" -> Bu asosiy html fayl 'bosh sahifa' shu yerda bo'ladi. 
+"pages/" -> Qolgan barcha sahifalar quyidagi papkaga saqlanadi.
+"images/" -> Rasmlar shu yerda saqlanadi.
+"style/" -> Barcha yangi sahifa uchun stillar shu papkada yozilishi kerak.
 
