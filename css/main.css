@@ -5,11 +5,230 @@
   box-sizing: border-box;
   list-style: none;
   text-decoration: none;
-  font-family: 'Poppins';
+  font-family: 'Poppins', sans-serif;
 }
 
 /* Kodlarni markazlashtiruvchi container */
 .container {
   max-width: 1320px;
   margin: 0 auto;
+}
+
+
+/**** Featuredning pastki qismi  ****/
+.featured__text__container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 80px;
+  margin-bottom: 40px;
+}
+
+.featured__text__container .featured__text__box__1 h1 {
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 40px;
+  line-height: 120%;
+  color: #1A1A1A;
+}
+
+
+.featured__text__container .featured__text__box__2 .viewbutton {
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 150%;
+  color: #00B307;
+  border: none;
+  padding: 0px;
+  background-color: white;
+  cursor: pointer;
+}
+
+.viewbutton img {
+  margin-left: 8px;
+  margin-bottom: -3px;
+  width: 20px;
+}
+
+.featured__boxes__container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 24px;
+}
+
+.featured__box {
+  width: 312px;
+  height: 407px;
+  background: #FFFFFF;
+  border: 1px solid #E6E6E6;
+  border-radius: 8px;
+  transition: all 1s ease;
+
+}
+
+.featured__box__top {
+  margin: 5px;
+  background-image: url(../images/Featured\ products\ img.png);
+  width: 302px;
+  height: 302px;
+  position: relative;
+}
+
+.featured__box__top__left {
+  top: 11px;
+  left: 11px;
+  position: absolute;
+}
+
+.featured__box__bottom__left h3 {
+  margin-top: 20px;
+  margin-left: 16px;
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 150%;
+  color: #4D4D4D;
+  transition: all 1s ease;
+}
+
+.featured__box__bottom__left h4 {
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 150%;
+  color: #1A1A1A;
+  margin-left: 16px;
+}
+
+.featured__box__bottom__left h4 span {
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 150%;
+  text-decoration-line: line-through;
+  color: #999999;
+}
+
+.featured__box__bottom__left ul {
+  display: flex;
+  margin-left: 16px;
+  gap: 2.25px;
+  cursor: pointer;
+}
+
+.featured__box__bottom {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+
+}
+
+.featured__box__bottom__right {
+  margin-right: 20px;
+  width: 40px;
+  height: 40px;
+  background-color: #F2F2F2;
+  display: flex;
+  flex-direction: column-reverse;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50%;
+  cursor: pointer;
+  transition: all 1s ease;
+}
+
+.featured__box__bottom__right .featured__bag {
+  border: none;
+  cursor: pointer;
+  transition: all 1s ease;
+  width: 18px;
+  height: 17px;
+}
+
+.featured__bag img {
+  transition: all 1s ease;
+}
+
+.featured__heart {
+  position: absolute;
+  right: 15px;
+  top: 15px;
+  background-color: white;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  display: flex;
+  flex-direction: column-reverse;
+  align-items: center;
+  justify-content: center;
+  border: 1px solid #F2F2F2;
+  cursor: pointer;
+}
+
+.featured__heart img {
+  width: 20px;
+  height: 20px;
+  margin-bottom: -3px;
+  cursor: pointer;
+}
+
+.featured__box label input {
+  display: none;
+}
+
+.featured__eye {
+  position: absolute;
+  background: #FFFFFF;
+  top: 61px;
+  right: 15px;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  display: flex;
+  flex-direction: column-reverse;
+  align-items: center;
+  justify-content: center;
+  border: 1px solid #F2F2F2;
+  cursor: pointer;
+}
+
+.featured__eye img {
+  width: 20px;
+  height: 20px;
+  margin-bottom: -3px;
+  cursor: pointer;
+}
+
+.featured__box:hover {
+  background: #FFFFFF;
+  border: 1px solid #2C742F;
+  box-shadow: 0px 0px 12px rgba(32, 181, 38, 0.32);
+  border-radius: 8px;
+}
+
+.featured__box:hover .featured__box__bottom__left h3 {
+  color: #2C742F;
+}
+
+.featured__box__top__right {
+  opacity: 0;
+  cursor: none;
+  transition: all 1s ease;
+}
+
+.featured__box:hover .featured__box__top__right {
+  opacity: 1;
+  cursor: pointer;
+}
+
+.featured__box:hover .featured__bag img,
+.featured__box:hover .featured__box__bottom__right {
+  background: #00B307;
 }
