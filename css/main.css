@@ -14,388 +14,208 @@
   margin: 0 auto;
 }
 
+/* Umumiy kodlar */
+.shopBtn {
+  padding: 16px 40px;
+  background-color: #00B207;
+  font-family: 'Poppins';
+  font-weight: 600;
+  font-size: 16px;
+  color: #FFFFFF;
+  border-radius: 53px;
+  border: none;
+  transition: 0.7s;
+}
+
 
 <<<<<<< HEAD
-/* shop_categories_2-part boshlandi */
+/* navbar-top boshlandi */
 
-.shop_categories .shop_categories_2-part {
+.navbar-top {
+  max-width: 1920px;
+  height: 42px;
+  margin: 0 auto;
+  background: #EDF2EE;
+}
+
+.navbar-top .container,
+.navbar-top .container .navbarLocation,
+.navbar-top .container .languageAndCurrency .languageAndCurrencyList {
   display: flex;
-
+  justify-content: space-between;
+  padding: 5px;
+  gap: 10px;
 }
 
 
-.shop_categories .shop_categories_2-part_photo1 img {
-
-  margin: 51px 24px 137px 65px;
-  width: 276px;
-  height: 400px;
-  left: 300px;
-  top: 80px;
-  box-shadow: 0px 0px 10px green;
-
+.navbar-top .container .navbarLocation .locationAddress .address,
+.navbar-top .container .languageAndCurrency .languageAndCurrencyList .languageAndCurrencyItem .language,
+.navbar-top .container .languageAndCurrency .languageAndCurrencyList .languageAndCurrencyItem .currency {
+  font-family: 'Poppins';
+  font-weight: 400;
+  font-size: 12px;
+  color: #2B572E;
 }
 
-.shop_categories .shop_categories_2-part_photo1 img:hover {
-  transform: scale(1.03);
+/* navbar-top tugadi */
+
+
+/* navbar-bottom boshlandi */
+
+.navbar-bottom {
+  background: #FFFFFF;
+  box-shadow: 0px 1px 0px #E6E6E6;
+  height: 78px;
+  padding: 20px 0;
+}
+
+.navbar-bottom .container .orderList,
+.navbar-bottom .container .orderList .orderItem .nav .navList,
+.navbar-bottom .container .orderList .orderItem .iconsList {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.navbar-bottom .container .orderList .orderItem .nav .navList .listItem .listItemLink {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 4px;
+  width: 64px;
+  font-family: 'Poppins';
+  font-size: 14px;
+  color: #808080;
+}
+
+.navbar-bottom .container .orderList .orderItem .nav .navList .listItem .listItemLink:hover {
+  color: #1A1A1A;
+}
+
+.navbar-bottom .container .orderList .orderItem .iconsList .iconsItem .phoneItem {
+  gap: 8px;
+  width: 145px;
+}
+
+.navbar-bottom .container .orderList .orderItem .iconsList .iconsItem .phoneItem .phoneImage {
+  float: left;
+}
+
+.navbar-bottom .container .orderList .orderItem .iconsList .iconsItem .phoneItem .phoneNumber {
+  font-family: 'Poppins';
+  font-weight: 500;
+  font-size: 14px;
+  color: #1A1A1A;
+  padding: 5px 0 5px 40px;
+}
+
+.navbar-bottom .container .orderList .orderItem .iconsList .iconsItem {
+  padding-left: 20px;
+}
+
+/* navbar-bottom tugadi */
+
+/*  ////////////////////////////////////////////////////////////////////// */
+
+/* healthy-section boshlandi */
+
+.healthy-section {
+  max-width: 1920px;
+  height: 645px;
+  margin: 0 auto;
+  background: url(../images/mainBgImage.png) no-repeat;
+}
+
+.healthy-section .container .wrapper {
+  width: 1300px;
+  margin: 0 auto;
+  padding-top: 70px;
+  display: flex;
+}
+
+.healthy-section .container .wrapper .healthyImage img {
+  width: 742px;
+  height: 498px;
+}
+
+.healthy-section .container .wrapper .healthlyText {
+  width: 590px;
+  padding-left: 38px;
+}
+
+.healthy-section .container .wrapper .healthlyText .welcomeToShoperyText {
+  font-family: 'Poppins';
+  font-weight: 500;
+  font-size: 14px;
+  text-transform: uppercase;
+  color: #00B307;
+  padding-top: 85px;
+}
+
+.healthy-section .container .wrapper .healthlyText .organicFoodText {
+  font-family: 'Poppins';
+  font-weight: 600;
+  font-size: 72px;
+  color: #1A1A1A;
+  padding: 8px 0;
+}
+
+.healthy-section .container .wrapper .healthlyText .saleUp {
+  font-family: 'Poppins';
+  font-weight: 400;
+  font-size: 32px;
+  color: #1A1A1A;
+  padding: 28px 0 12px;
+}
+
+.healthy-section .container .wrapper .healthlyText .saleUp .discountRate {
+  font-weight: 900;
+  color: #FF8A00;
+}
+
+.healthy-section .container .wrapper .healthlyText .foodPhotoInfo {
+  font-family: 'Poppins';
+  font-weight: 400;
+  font-size: 14px;
+  color: #808080;
+}
+
+.healthy-section .container .wrapper .healthlyText .shopBtn {
+  margin-top: 32px;
+}
+
+.healthy-section .leaf {
+  position: absolute;
+  left: 1250px;
+  top: 660px;
+}
+
+/* healthy-section tugadi */
+
+
+/**** Featuredning pastki qismi  ****/
+.featured__text__container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 80px;
+  margin-bottom: 40px;
+}
+
+.featured__text__container .featured__text__box__1 h1 {
+  >>>>>>>b7a78fedd868aa738ec1c210cc72566b8acdb4a1 font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 40px;
+  line-height: 120%;
+  color: #1A1A1A;
+  <<<<<<< HEAD
 }
 
 
-.shop_categories .shop_categories_2-part_photo2 img {
 
-  margin: 51px 40px 80px 0px;
-  width: 444px;
-  height: 457px;
-  left: 600px;
-  top: 80px;
-  box-shadow: 0 0 10px green;
-}
 
-.shop_categories .shop_categories_2-part_photo2 img:hover {
-  transform: scale(1.03);
-}
 
-.shop_categories_2-part_text_bag {
-
-  margin: 67px 140px 27px 0px;
-  width: 389px;
-  height: 96px;
-  left: 0px;
-  top: 0px;
-  =======
-
-  /* Umumiy kodlar */
-  .shopBtn {
-    padding: 16px 40px;
-    background-color: #00B207;
-    font-family: 'Poppins';
-    font-weight: 600;
-    font-size: 16px;
-    color: #FFFFFF;
-    border-radius: 53px;
-    border: none;
-    transition: 0.7s;
-  }
-
-  .shopBtn:hover .rightArrow {
-    transform: translateX(25px);
-  }
-
-  .shopBtn:active {
-    transform: scale(0.9);
-  }
-
-
-
-  /* navbar-top boshlandi */
-
-  .navbar-top {
-    max-width: 1920px;
-    height: 42px;
-    margin: 0 auto;
-    background: #EDF2EE;
-  }
-
-  .navbar-top .container,
-  .navbar-top .container .navbarLocation,
-  .navbar-top .container .languageAndCurrency .languageAndCurrencyList {
-    display: flex;
-    justify-content: space-between;
-    padding: 5px;
-    gap: 10px;
-  }
-
-
-  .navbar-top .container .navbarLocation .locationAddress .address,
-  .navbar-top .container .languageAndCurrency .languageAndCurrencyList .languageAndCurrencyItem .language,
-  .navbar-top .container .languageAndCurrency .languageAndCurrencyList .languageAndCurrencyItem .currency {
-    font-family: 'Poppins';
-    font-weight: 400;
-    font-size: 12px;
-    color: #2B572E;
-  }
-
-  /* navbar-top tugadi */
-
-
-  /* navbar-bottom boshlandi */
-
-  .navbar-bottom {
-    background: #FFFFFF;
-    box-shadow: 0px 1px 0px #E6E6E6;
-    height: 78px;
-    padding: 20px 0;
-  }
-
-  .navbar-bottom .container .orderList,
-  .navbar-bottom .container .orderList .orderItem .nav .navList,
-  .navbar-bottom .container .orderList .orderItem .iconsList {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-  }
-
-  .navbar-bottom .container .orderList .orderItem .nav .navList .listItem .listItemLink {
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    gap: 4px;
-    width: 64px;
-    font-family: 'Poppins';
-    font-size: 14px;
-    color: #808080;
-  }
-
-  .navbar-bottom .container .orderList .orderItem .nav .navList .listItem .listItemLink:hover {
-    color: #1A1A1A;
-  }
-
-  .navbar-bottom .container .orderList .orderItem .iconsList .iconsItem .phoneItem {
-    gap: 8px;
-    width: 145px;
-  }
-
-  .navbar-bottom .container .orderList .orderItem .iconsList .iconsItem .phoneItem .phoneImage {
-    float: left;
-  }
-
-  .navbar-bottom .container .orderList .orderItem .iconsList .iconsItem .phoneItem .phoneNumber {
-    font-family: 'Poppins';
-    font-weight: 500;
-    font-size: 14px;
-    color: #1A1A1A;
-    padding: 5px 0 5px 40px;
-  }
-
-  .navbar-bottom .container .orderList .orderItem .iconsList .iconsItem {
-    padding-left: 20px;
-  }
-
-  /* navbar-bottom tugadi */
-
-  /*  ////////////////////////////////////////////////////////////////////// */
-
-  /* healthy-section boshlandi */
-
-  .healthy-section {
-    max-width: 1920px;
-    height: 645px;
-    margin: 0 auto;
-    background: url(../images/mainBgImage.png) no-repeat;
-  }
-
-  .healthy-section .container .wrapper {
-    width: 1300px;
-    margin: 0 auto;
-    padding-top: 70px;
-    display: flex;
-  }
-
-  .healthy-section .container .wrapper .healthyImage img {
-    width: 742px;
-    height: 498px;
-  }
-
-  .healthy-section .container .wrapper .healthlyText {
-    width: 590px;
-    padding-left: 38px;
-  }
-
-  .healthy-section .container .wrapper .healthlyText .welcomeToShoperyText {
-    font-family: 'Poppins';
-    font-weight: 500;
-    font-size: 14px;
-    text-transform: uppercase;
-    color: #00B307;
-    padding-top: 85px;
-  }
-
-  .healthy-section .container .wrapper .healthlyText .organicFoodText {
-    font-family: 'Poppins';
-    font-weight: 600;
-    font-size: 72px;
-    color: #1A1A1A;
-    padding: 8px 0;
-  }
-
-  .healthy-section .container .wrapper .healthlyText .saleUp {
-    font-family: 'Poppins';
-    font-weight: 400;
-    font-size: 32px;
-    color: #1A1A1A;
-    padding: 28px 0 12px;
-  }
-
-  .healthy-section .container .wrapper .healthlyText .saleUp .discountRate {
-    font-weight: 900;
-    color: #FF8A00;
-  }
-
-  .healthy-section .container .wrapper .healthlyText .foodPhotoInfo {
-    font-family: 'Poppins';
-    font-weight: 400;
-    font-size: 14px;
-    color: #808080;
-  }
-
-  .healthy-section .container .wrapper .healthlyText .shopBtn {
-    margin-top: 32px;
-  }
-
-  .healthy-section .leaf {
-    position: absolute;
-    left: 1250px;
-    top: 660px;
-  }
-
-  /* healthy-section tugadi */
-
-
-  /**** Featuredning pastki qismi  ****/
-  .featured__text__container {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    margin-top: 80px;
-    margin-bottom: 40px;
-  }
-
-  .featured__text__container .featured__text__box__1 h1 {
-    >>>>>>>b7a78fedd868aa738ec1c210cc72566b8acdb4a1 font-family: 'Poppins';
-    font-style: normal;
-    font-weight: 600;
-    font-size: 40px;
-    line-height: 120%;
-    color: #1A1A1A;
-    <<<<<<< HEAD
-  }
-
-  .shop_categories_2-part_text_small_1 b {
-
-    margin: 0px 300px 10px 12px;
-    width: 500px;
-    height: 27px;
-    font-family: 'Poppins';
-    font-style: normal;
-    font-weight: 500;
-    font-size: 18px;
-    line-height: 150%;
-    color: #1A1A1A;
-
-  }
-
-  .shop_categories_2-part_text_small_1 p {
-
-    margin: 0px 302px 26px 34px;
-    width: 500px;
-    height: 63px;
-    font-family: 'Poppins';
-    font-style: normal;
-    font-weight: 400;
-    font-size: 14px;
-    line-height: 150%;
-    color: #808080;
-
-  }
-
-
-  .shop_categories_2-part_text_small_2 {
-    margin-top: 10px;
-
-  }
-
-  .shop_categories_2-part_text_small_1 {
-    display: flex;
-  }
-
-  .shop_categories_2-part_text_small_2 {
-    display: flex;
-  }
-
-  .shop_categories_2-part_text_small_2 b {
-
-    margin: 0px 296px 10px 12px;
-    width: 504px;
-    height: 27px;
-    font-family: 'Poppins';
-    font-style: normal;
-    font-weight: 500;
-    font-size: 18px;
-    line-height: 150%;
-    color: #1A1A1A;
-  }
-
-  .shop_categories_2-part_text_small_2 p {
-
-    margin: 0px 300px 26px 34px;
-    width: 504px;
-    height: 63px;
-    font-family: 'Poppins';
-    font-style: normal;
-    font-weight: 400;
-    font-size: 14px;
-    line-height: 150%;
-    color: #808080;
-
-  }
-
-  .shop_categories_2-part_text_small_button button {
-
-    margin: 0px 644px 96px 0px;
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    align-items: center;
-    padding: 16px 40px;
-    gap: 16px;
-    width: 192px;
-    height: 51px;
-    background: #00B307;
-    border-radius: 43px;
-
-  }
-
-  .shop_categories_2-part_text_small_button button .button1 {
-    max-width: 81px;
-    height: 19px;
-    font-family: 'Poppins';
-    font-style: normal;
-    font-weight: 600;
-    font-size: 16px;
-    line-height: 120%;
-    color: #FFFFFF;
-  }
-
-
-  .shop_categories_2-part_text_small input:active {
-
-    border-radius: 100%;
-    cursor: pointer;
-    transform: scale(1.4);
-
-
-  }
-
-  .shop_categories_2-part_text_small_button:active {
-    transform: scale(0.95);
-
-  }
-
-
-  .shop_categories_2-part_text_small_1 .input {
-    margin-top: 10px;
-
-  }
-
-  .shop_categories_2-part_text_small input {
-    width: 23px;
-    height: 23px;
-
-  }
-
-
-  /* shop_categories_2-part tugadiii */
-  =======
-}
 
 
 .featured__text__container .featured__text__box__2 .viewbutton {
@@ -597,4 +417,189 @@
   background: #00B307;
 }
 
->>>>>>>b7a78fedd868aa738ec1c210cc72566b8acdb4a1
+
+
+/* shop_categories_2-part boshlandi */
+
+.shop_categories .shop_categories_2-part {
+  display: flex;
+
+}
+
+
+.shop_categories .shop_categories_2-part_photo1 img {
+
+  margin: 51px 24px 137px 65px;
+  width: 276px;
+  height: 400px;
+  left: 300px;
+  top: 80px;
+  box-shadow: 0px 0px 10px green;
+
+}
+
+.shop_categories .shop_categories_2-part_photo1 img:hover {
+  transform: scale(1.03);
+}
+
+
+.shop_categories .shop_categories_2-part_photo2 img {
+
+  margin: 51px 40px 80px 0px;
+  width: 444px;
+  height: 457px;
+  left: 600px;
+  top: 80px;
+  box-shadow: 0 0 10px green;
+}
+
+.shop_categories .shop_categories_2-part_photo2 img:hover {
+  transform: scale(1.03);
+}
+
+.shop_categories_2-part_text_bag {
+
+  margin: 67px 140px 27px 0px;
+  width: 389px;
+  height: 96px;
+  left: 0px;
+  top: 0px;
+  =======
+}
+
+.shopBtn:hover .rightArrow {
+  transform: translateX(25px);
+}
+
+.shopBtn:active {
+  transform: scale(0.9);
+}
+
+
+.shop_categories_2-part_text_small_1 b {
+
+  margin: 0px 300px 10px 12px;
+  width: 500px;
+  height: 27px;
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 150%;
+  color: #1A1A1A;
+
+}
+
+.shop_categories_2-part_text_small_1 p {
+
+  margin: 0px 302px 26px 34px;
+  width: 500px;
+  height: 63px;
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 150%;
+  color: #808080;
+
+}
+
+
+.shop_categories_2-part_text_small_2 {
+  margin-top: 10px;
+
+}
+
+.shop_categories_2-part_text_small_1 {
+  display: flex;
+}
+
+.shop_categories_2-part_text_small_2 {
+  display: flex;
+}
+
+.shop_categories_2-part_text_small_2 b {
+
+  margin: 0px 296px 10px 12px;
+  width: 504px;
+  height: 27px;
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 150%;
+  color: #1A1A1A;
+}
+
+.shop_categories_2-part_text_small_2 p {
+
+  margin: 0px 300px 26px 34px;
+  width: 504px;
+  height: 63px;
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 150%;
+  color: #808080;
+
+}
+
+.shop_categories_2-part_text_small_button button {
+
+  margin: 0px 644px 96px 0px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 16px 40px;
+  gap: 16px;
+  width: 192px;
+  height: 51px;
+  background: #00B307;
+  border-radius: 43px;
+
+}
+
+.shop_categories_2-part_text_small_button button .button1 {
+  max-width: 81px;
+  height: 19px;
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 120%;
+  color: #FFFFFF;
+}
+
+
+.shop_categories_2-part_text_small input:active {
+
+  border-radius: 100%;
+  cursor: pointer;
+  transform: scale(1.4);
+
+
+}
+
+.shop_categories_2-part_text_small_button:active {
+  transform: scale(0.95);
+
+}
+
+
+.shop_categories_2-part_text_small_1 .input {
+  margin-top: 10px;
+
+}
+
+.shop_categories_2-part_text_small input {
+  width: 23px;
+  height: 23px;
+
+}
+
+
+/* shop_categories_2-part tugadiii */
+
+>>>>>>>b7a78fedd868aa738ec1c210cc72566b8acdb4a1=======
