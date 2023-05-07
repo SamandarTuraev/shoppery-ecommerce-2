@@ -6,10 +6,161 @@
   list-style: none;
   text-decoration: none;
   font-family: 'Poppins';
+
 }
+.last-news{
+  background: url(../images/BG.png) , #F2F2F2;
+
+}
+
 
 /* Kodlarni markazlashtiruvchi container */
 .container {
   max-width: 1320px;
   margin: 0 auto;
+ 
+  
 }
+
+.last-news_name-text1{
+font-family: 'Segoe Script';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 120%;
+text-align: center;
+text-transform: uppercase;
+color: #00B307;
+flex: none;
+order: 0;
+flex-grow: 0;
+padding-top: 80px;
+}
+.last-news_name-text2{
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 40px;
+  line-height: 120%;
+  text-align: center;
+  color: #1A1A1A;
+  flex: none;
+  order: 1;
+  flex-grow: 0;
+  margin-top: 10px;
+  margin-bottom: 45px;
+}
+.last-news_box1-border{
+    width: 424px;
+    height: 324px;
+    background: #999999;
+    border-radius: 8px 8px 0px 0px;
+   
+}
+.last-news_box{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  margin: 0 auto;
+    gap: 25px;
+
+}
+.last-news_box1-border-date{
+  position: absolute;
+width: 58px;
+height: 58px;
+background: #FFFFFF;
+border-radius: 4px;
+margin-top: 245px;
+margin-left: 25px;
+}
+.last-news_box1-border-date_num{
+width: 20px;
+height: 30px;
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 500;
+font-size: 20px;
+line-height: 150%;
+text-align: center;
+color: #0b0a0a;
+margin: 5px auto;
+}
+.last-news_box1-border-date_text{
+width: 28px;
+height: 12px;
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 500;
+font-size: 12px;
+line-height: 100%;
+text-align: center;
+letter-spacing: 0.03em;
+text-transform: uppercase;
+color: #808080;
+margin: -5px auto 0 auto;
+}
+
+.last-news_box1-text-header{
+  display: flex;
+  margin-top: 25px;
+  
+}
+.text-header3{
+  display: flex;
+ margin-left: 26px;
+ font-family: 'Poppins';
+font-style: normal;
+font-weight: 400;
+font-size: 14px;
+line-height: 150%;
+color: #666666;
+flex: none;
+order: 1;
+flex-grow: 0;
+gap: 6px;
+  
+
+}
+.last-news_box1-text-name{ 
+width: 376px;
+height: 54px;
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 500;
+font-size: 18px;
+line-height: 150%;
+color: #1A1A1A;
+flex: none;
+order: 1;
+flex-grow: 0;
+margin-left: 24px;
+margin-top: 8px;
+}
+.last-news_box1-text-end{
+  display: flex;
+  margin-left: 25px;
+  gap: 14px;
+  padding-bottom: 20px;
+}
+.text{ 
+width: 87px;
+height: 19px;
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 600;
+font-size: 16px;
+line-height: 120%;
+color: #00B307;
+flex: none;
+order: 0;
+flex-grow: 0;
+
+}
+.last-news_box1-text{
+  margin-bottom: 80px;
+  background-color:white ;
+  margin-top: -5px;
+  padding-top: 8px;
+}
+
