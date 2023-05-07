@@ -27,6 +27,13 @@
   transition: 0.7s;
 }
 
+.shopBtn:hover .rightArrow {
+  transform: translateX(25px);
+}
+
+.shopBtn:active {
+  transform: scale(0.9);
+}
 
 <<<<<<< HEAD
 /* navbar-top boshlandi */
@@ -419,7 +426,7 @@
 
 
 
-/* shop_categories_2-part boshlandi */
+/*\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\ shop_categories_2-part boshlandi \\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\ */
 
 .shop_categories .shop_categories_2-part {
   display: flex;
@@ -467,13 +474,6 @@
   =======
 }
 
-.shopBtn:hover .rightArrow {
-  transform: translateX(25px);
-}
-
-.shopBtn:active {
-  transform: scale(0.9);
-}
 
 
 .shop_categories_2-part_text_small_1 b {
@@ -600,6 +600,6 @@
 }
 
 
-/* shop_categories_2-part tugadiii */
+/* \\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\ shop_categories_2-part tugadiii \\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\ */
 
 >>>>>>>b7a78fedd868aa738ec1c210cc72566b8acdb4a1=======
