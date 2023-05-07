@@ -13,3 +13,193 @@
   max-width: 1320px;
   margin: 0 auto;
 }
+
+
+
+
+
+
+
+
+
+
+
+/* shop_categories_2-part boshlandi */
+
+.shop_categories .shop_categories_2-part {
+  display: flex;
+
+}
+
+
+.shop_categories .shop_categories_2-part_photo1 img {
+
+  margin: 51px 24px 137px 65px;
+  width: 276px;
+  height: 400px;
+  left: 300px;
+  top: 80px;
+  box-shadow: 0px 0px 10px green;
+
+}
+
+.shop_categories .shop_categories_2-part_photo1 img:hover {
+  transform: scale(1.03);
+}
+
+
+.shop_categories .shop_categories_2-part_photo2 img {
+
+  margin: 51px 40px 80px 0px;
+  width: 444px;
+  height: 457px;
+  left: 600px;
+  top: 80px;
+  box-shadow: 0 0 10px green;
+}
+
+.shop_categories .shop_categories_2-part_photo2 img:hover {
+  transform: scale(1.03);
+}
+
+.shop_categories_2-part_text_bag {
+
+  margin: 67px 140px 27px 0px;
+  width: 389px;
+  height: 96px;
+  left: 0px;
+  top: 0px;
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 40px;
+  line-height: 120%;
+  color: #1A1A1A;
+
+}
+
+.shop_categories_2-part_text_small_1 b {
+
+  margin: 0px 300px 10px 12px;
+  width: 500px;
+  height: 27px;
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 150%;
+  color: #1A1A1A;
+
+}
+
+.shop_categories_2-part_text_small_1 p {
+
+  margin: 0px 302px 26px 34px;
+  width: 500px;
+  height: 63px;
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 150%;
+  color: #808080;
+
+}
+
+
+.shop_categories_2-part_text_small_2 {
+  margin-top: 10px;
+
+}
+
+.shop_categories_2-part_text_small_1 {
+  display: flex;
+}
+
+.shop_categories_2-part_text_small_2 {
+  display: flex;
+}
+
+.shop_categories_2-part_text_small_2 b {
+
+  margin: 0px 296px 10px 12px;
+  width: 504px;
+  height: 27px;
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 150%;
+  color: #1A1A1A;
+}
+
+.shop_categories_2-part_text_small_2 p {
+
+  margin: 0px 300px 26px 34px;
+  width: 504px;
+  height: 63px;
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 150%;
+  color: #808080;
+
+}
+
+.shop_categories_2-part_text_small_button button {
+
+  margin: 0px 644px 96px 0px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 16px 40px;
+  gap: 16px;
+  width: 192px;
+  height: 51px;
+  background: #00B307;
+  border-radius: 43px;
+
+}
+
+.shop_categories_2-part_text_small_button button .button1 {
+  max-width: 81px;
+  height: 19px;
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 120%;
+  color: #FFFFFF;
+}
+
+
+.shop_categories_2-part_text_small input:active {
+
+  border-radius: 100%;
+  cursor: pointer;
+  transform: scale(1.4);
+
+
+}
+
+.shop_categories_2-part_text_small_button:active {
+  transform: scale(0.95);
+
+}
+
+
+.shop_categories_2-part_text_small_1 .input {
+  margin-top: 10px;
+
+}
+
+.shop_categories_2-part_text_small input {
+  width: 23px;
+  height: 23px;
+
+}
+
+
+/* shop_categories_2-part tugadiii */
