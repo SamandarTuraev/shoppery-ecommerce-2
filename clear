@@ -1,0 +1,156 @@
+[33mcommit d30e0f99c6b973badf41bccf9a07197632b61d64[m[33m ([m[1;36mHEAD -> [m[1;32mmain[m[33m, [m[1;31morigin/main[m[33m, [m[1;31morigin/HEAD[m[33m)[m
+Author: Anvarbek Toshmamatov <anvarbektoshmamatov888@gmail.com>
+Date:   Sun May 7 20:21:56 2023 +0500
+
+    Shop catigores ning css ga o'zgartirish kiritdim
+
+[33mcommit 77281628401e7fded69bb597856996130f9ff6f7[m
+Merge: 4079ab4 b7a78fe
+Author: Anvarbek Toshmamatov <anvarbektoshmamatov888@gmail.com>
+Date:   Sun May 7 20:02:40 2023 +0500
+
+    Shop_catigores ning ikkinchi qismini togirladim
+
+[33mcommit 4079ab4e01934ffd2dc6aeb0cd1c9eb79869444e[m
+Author: Anvarbek Toshmamatov <anvarbektoshmamatov888@gmail.com>
+Date:   Sun May 7 19:56:11 2023 +0500
+
+    Shop_catigores ning ikkinchi qismini qoshdim
+
+[33mcommit b7a78fedd868aa738ec1c210cc72566b8acdb4a1[m
+Author: Dilshodbek <dilshodjonaqiyev@gmail.com>
+Date:   Sun May 7 06:46:27 2023 -0700
+
+    Header qismidagi kamchiliklarni tugirladim
+
+[33mcommit 0e451ee3e37860e92e555a1889816dae66a18261[m
+Merge: 39f96eb 6fd32d1
+Author: Dilshodbek <dilshodjonaqiyev@gmail.com>
+Date:   Sun May 7 06:35:10 2023 -0700
+
+    Header va Healthly Section qushildi
+
+[33mcommit 39f96ebe19f4148f202b40d0d433eda4c012b324[m
+Author: Dilshodbek <dilshodjonaqiyev@gmail.com>
+Date:   Sun May 7 06:26:43 2023 -0700
+
+    Header va Healthly Section qushildi
+
+[33mcommit 6fd32d1a9661625abc4b1aa625654dab288fb34d[m
+Author: Samandar Turaev <samandarturayev217@gmail.com>
+Date:   Sun May 7 16:36:26 2023 +0500
+
+    Featured Products qismi tugadi
+
+[33mcommit 04a8ac81d45c09e25ac0e9e4d6aefb964be501c0[m
+Author: Asadbek <129890618+NaRuTOO1TenX@users.noreply.github.com>
+Date:   Sat May 6 00:54:16 2023 +0500
+
+    Loyiha strukturasi
+
+[33mcommit 43de8d09cc7c0fd90fb8c795207e7f96acfa3426[m
+Author: Asadbek <asavbatov@gmail.com>
+Date:   Sat May 6 00:50:36 2023 +0500
+
+    Homepage bolaklari togirlandi
+
+[33mcommit c42ec9b65fadda3bf69416cb5a15f386068aafb9[m
+Author: Asadbek <asavbatov@gmail.com>
+Date:   Sat May 6 00:25:42 2023 +0500
+
+    Sign in sahifasi qushildi
+
+[33mcommit f00e4429d730087b525d0c8f13eef3d8dcc32d81[m
+Merge: f21e8df 2f2a8b5
+Author: Asadbek <asavbatov@gmail.com>
+Date:   Fri May 5 23:22:18 2023 +0500
+
+    Merge branch 'main' of https://github.com/SamandarTuraev/shoppery-ecommerce-2
+
+[33mcommit f21e8df3003e0fcdea3cde663285696399d5c189[m
+Author: Asadbek <asavbatov@gmail.com>
+Date:   Fri May 5 23:21:47 2023 +0500
+
+    Sahifadagi barcha sectionlar kiritildi
+
+[33mcommit 2f2a8b564b5287c87cc1ab23c336cc35ebb6c69f[m
+Author: Asadbek <129890618+NaRuTOO1TenX@users.noreply.github.com>
+Date:   Fri May 5 23:11:14 2023 +0500
+
+    Loyiha strukturasi
+
+[33mcommit 3f189520835f3f87a787b6d32ebd06bea5fc1f67[m
+Author: Asadbek <129890618+NaRuTOO1TenX@users.noreply.github.com>
+Date:   Fri May 5 23:10:45 2023 +0500
+
+    Loyiha strukturasi
+
+[33mcommit 84b974b9f4986cdadc66a2e7c4da1ab39b46c440[m
+Author: Asadbek <129890618+NaRuTOO1TenX@users.noreply.github.com>
+Date:   Fri May 5 23:10:04 2023 +0500
+
+    Loyiha strukturasi
+
+[33mcommit e3955d94bd274219f4ec18c962bbd0c71452f9a9[m
+Author: Asadbek <129890618+NaRuTOO1TenX@users.noreply.github.com>
+Date:   Fri May 5 23:09:00 2023 +0500
+
+    Loyiha strukturasi
+
+[33mcommit 6331613a6ee20012557ae71012f803164a7b99de[m
+Author: Samandar Turaev <samandarturayev217@gmail.com>
+Date:   Fri May 5 21:20:17 2023 +0500
+
+    Boshlangich papkalar
+
+[33mcommit d81ca7c6bae110baaf2b2c7dff4e854e7bdcce06[m
+Merge: 273b3b3 73f3d6d
+Author: Samandar Turaev <samandarturayev217@gmail.com>
+Date:   Fri May 5 20:45:11 2023 +0500
+
+    Merge branch 'main' of https://github.com/SamandarTuraev/shoppery-ecommerce-2
+
+[33mcommit 273b3b3511255bbf4a77961157606501177d0b83[m
+Author: Samandar Turaev <samandarturayev217@gmail.com>
+Date:   Fri May 5 20:45:01 2023 +0500
+
+    Header bilan footer qism qushildi
+
+[33mcommit 73f3d6d5d9e1eeea2836662ccfbed9232c7ae129[m
+Author: SamandarTuraev <129301048+SamandarTuraev@users.noreply.github.com>
+Date:   Fri May 5 20:44:00 2023 +0500
+
+    Changes
+
+[33mcommit 8d06c8cc370cda8dfbd42ee51d8c3a90b100a56e[m
+Merge: 8e7258d e274876
+Author: Samandar Turaev <samandarturayev217@gmail.com>
+Date:   Fri May 5 20:37:55 2023 +0500
+
+    p qushdim 2
+
+[33mcommit 8e7258d90aae28aa6175cf0611879ac63e620c4d[m
+Author: Samandar Turaev <samandarturayev217@gmail.com>
+Date:   Fri May 5 20:36:20 2023 +0500
+
+    p qushdim
+
+[33mcommit e274876cc06f67533ac27979e0dbc021edec097b[m
+Author: SamandarTuraev <129301048+SamandarTuraev@users.noreply.github.com>
+Date:   Fri May 5 20:35:21 2023 +0500
+
+    Update index.html
+    
+    p qushdim
+
+[33mcommit 20caed4e72ddaf4f3d37bbc114aab459e67294dd[m
+Author: Samandar Turaev <samandarturayev217@gmail.com>
+Date:   Fri May 5 20:33:22 2023 +0500
+
+    Header qism qushildi
+
+[33mcommit 59a4e1729b3084f7aabda7d6a21f140871559367[m
+Author: SamandarTuraev <129301048+SamandarTuraev@users.noreply.github.com>
+Date:   Fri May 5 20:26:24 2023 +0500
+
+    Initial commit
