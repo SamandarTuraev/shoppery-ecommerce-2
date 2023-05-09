@@ -598,7 +598,7 @@
 
 .shop_categories .shop_categories_2-part_photo1 img {
 
-  margin: 51px 24px 137px 65px;
+  margin: 51px 24px 137px 0px;
   width: 276px;
   height: 400px;
   left: 300px;
@@ -633,10 +633,17 @@
   height: 96px;
   left: 0px;
   top: 0px;
+<<<<<<< HEAD
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 40px;
+  line-height: 120%;
+  color: #1A1A1A;
+=======
+>>>>>>> b1bda63d36bd7313b9c9e0a95ab42f66c27e3b10
 
 }
-
-
 
 .shop_categories_2-part_text_small_1 b {
 
@@ -1022,4 +1029,10 @@
 /* Testimonial qisimi tugadi */
 
 
+<<<<<<< HEAD
 /* \\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\ shop_categories_2-part tugadiii \\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\ */
+
+>>>>>>>b7a78fedd868aa738ec1c210cc72566b8acdb4a1=======
+=======
+/* \\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\ shop_categories_2-part tugadiii \\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\ */
+>>>>>>> b1bda63d36bd7313b9c9e0a95ab42f66c27e3b10
