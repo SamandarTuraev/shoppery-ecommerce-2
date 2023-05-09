@@ -436,7 +436,7 @@
 
 .shop_categories .shop_categories_2-part_photo1 img {
 
-  margin: 51px 24px 137px 65px;
+  margin: 51px 24px 137px 0px;
   width: 276px;
   height: 400px;
   left: 300px;
@@ -471,10 +471,14 @@
   height: 96px;
   left: 0px;
   top: 0px;
-  =======
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 40px;
+  line-height: 120%;
+  color: #1A1A1A;
+
 }
-
-
 
 .shop_categories_2-part_text_small_1 b {
 
