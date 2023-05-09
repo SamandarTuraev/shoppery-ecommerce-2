@@ -761,5 +761,265 @@
 
 }
 
+/* Testimonial qisimi boshlandi */
+
+.testimonial{
+  background-image: url(../images/Testimonials.png);
+  background-repeat: no-repeat;
+  margin: 0 auto;
+  width: 1920px;
+  height: 504px;
+}
+.testimonial .container{
+/*  background-position-x: 0px;*/
+  /*background-repeat: no-repeat;*/
+  width: 1920px;
+  height: 504px;
+}
+.testimonial .container>.hug{
+  width: 1400px;
+  height: 67px;
+  padding-top: 3px;
+}
+.testimonial .container .hug .hug-hug {
+  height: 65px;
+  
+}
+.testimonial .container .hug .hug-hug .left {
+  margin: 0 30px 0 580px;
+  width: 30px;
+  height: 30px;
+  border-radius: 15px;
+  display: inline-flex;
+  /*border: 1px solid #000;*/
+  padding: 2px;
+
+}
+.testimonial .container .hug .hug-hug .right {
+  width: 30px;
+  height: 30px;
+  border-radius: 15px;
+  display: inline-flex;
+  /*border: 1px solid #000;*/
+  /*background: #1A1A1A;*/
+  padding: 2px;
+  transform: rotate(180deg);
+}
+.testimonial .container .hug .hug-hug .left :hover {
+  background: green;
+}
+.testimonial .container .hug .hug-hug .right :hover {
+  background: green;
+}
+
+
+.testimonial .container .hug .hug-hug h1{
+  width: 122px;
+  height: 19px;
+  font-family: 'Segoe Script';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 120%;
+  text-transform: uppercase;
+  color: #00B307;
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+ /* margin-left: -150px;*/
+  margin-top: 70px;
+  margin-bottom: 0;
+}
+.testimonial .container .hug .hug-hug p{
+  /*margin-left: -150px;*/
+  margin-bottom: 70px;
+  margin-top: 0;
+  width: 513px;
+  height: 48px;
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 40px;
+  line-height: 120%;
+  color: #1A1A1A;
+  flex: none;
+  order: 1;
+  flex-grow: 0;
+  display: inline-flex;
+}
+.testimonial .container .hug .card img{
+  width: 32px;
+  height: 26px;
+  color: #00B307;
+  opacity: 0.3;
+  margin: -40px -25px 30px;
+
+}
+.testimonial .container .hug .card .card-item {
+  height: 70px;
+  width: 376px;
+/*  left: 24px;*/
+  top: 66px;
+  border-radius: nullpx;
+  /*margin-left: 30px;*/
+
+}
+.testimonial .container .hug .card .card-item .profil {
+  width: 56px;
+  height: 56px;
+  border-radius: 28px;
+  background: #333;
+  display: inline-block;
+}
+.testimonial .container .hug .card .card-item .profill{
+  width: 106px;
+  height: 40px;
+  display: inline-block;
+  margin-top: 50px;
+}
+.testimonial .container .hug .card .card-item .profill h5{
+  margin: 0;
+  margin-top: 10px;
+}
+.testimonial .container .hug .card {
+  height: 239px;
+  width: 424px;
+  /*left: 0px;*/
+  top: 0px;
+  border-radius: 8px;
+  padding: 51px;
+  display: inline-flex;
+/*  margin: 60px 0 70px -150px;*/
+  margin-top: 60px;
+  margin-bottom: 70px;
+  background-color: #FFFFFF;
+}
+
+
+.testimonial .container .hug .card2 img{
+  width: 32px;
+  height: 26px;
+  color: #00B307;
+  opacity: 0.3;
+  margin: -40px -25px 30px;
+
+}
+.testimonial .container .hug .card2 .card-item {
+  height: 70px;
+  width: 376px;
+  left: 24px;
+  top: 66px;
+  border-radius: nullpx;
+  /*margin-left: 30px;*/
+
+}
+.testimonial .container .hug .card2 .card-item .profil{
+  width: 56px;
+  height: 56px;
+  border-radius: 28px;
+  background: #333;
+  display: inline-block;
+}
+.testimonial .container .hug .card2 .card-item .profill{
+  width: 136px;
+  height: 40px;
+  display: inline-block;
+  margin-top: 50px;
+
+}
+.testimonial .container .hug .card2 .card-item .profill h5{
+  margin: 0;
+  margin-top: 10px;
+}
+.testimonial .container .hug .card2 {
+  height: 239px;
+  width: 424px;
+  left: 0px;
+  top: 0px;
+  border-radius: 8px;
+  padding: 51px;
+  display: inline-flex;
+  background-color: #FFFFFF;
+
+}
+
+
+
+.testimonial .container .hug .card3 img{
+  width: 32px;
+  height: 26px;
+  color: #00B307;
+  opacity: 0.3;
+  margin: -40px -25px 30px;
+}
+.testimonial .container .hug .card3 .card-item {
+  height: 70px;
+  width: 376px;
+  left: 24px;
+  top: 66px;
+  border-radius: nullpx;
+  /*margin-left: 30px;*/
+
+}
+.testimonial .container .hug .card3 .card-item .profil{
+  width: 56px;
+  height: 56px;
+  border-radius: 28px;
+  background: #333;
+  display: inline-block;
+}
+.testimonial .container .hug .card3 .card-item .profill{
+  width: 120px;
+  height: 40px;
+  display: inline-block;
+  margin-top: 50px;
+
+}
+.testimonial .container .hug .card3 .card-item .profill h5{
+  margin: 0;
+  margin-top: 10px;
+}
+.testimonial .container .hug .card3 {
+  height: 239px;
+  width: 424px;
+  left: 0px;
+  top: 0px;
+  border-radius: 8px;
+  padding: 51px;
+  display: inline-flex;
+  background-color: #FFFFFF;
+
+
+}
+
+.testimonial .container .hug .card .card-item ul{
+  display: flex;
+  margin-left: 236px;
+  margin-top: -1px;
+  gap: 30px;
+  cursor: pointer;
+  list-style: none;
+}
+.testimonial .container .hug .card2 .card-item ul{
+  display: flex;
+  margin-left: 236px;
+  margin-top: -1px;
+  gap: 30px;
+  cursor: pointer;
+  list-style: none;
+
+}
+.testimonial .container .hug .card3 .card-item ul{
+  display: flex;
+  margin-left: 236px;
+  margin-top: -1px;
+  gap: 30px;
+  cursor: pointer;
+  list-style: none;
+
+}
+
+/* Testimonial qisimi tugadi */
+
 
 /* \\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\ shop_categories_2-part tugadiii \\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\ */
