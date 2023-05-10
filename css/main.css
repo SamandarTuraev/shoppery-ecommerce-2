@@ -25,10 +25,17 @@
   color: #FFFFFF;
   border-radius: 53px;
   border: none;
-  transition: 0.7s;
+  transition: all 0.4s linear;
+  box-shadow: 0 0 10px #555;
+  cursor: pointer;
+}
+.shopBtn img {
+  transition: all .5s linear;
+  position: relative;
+  top: 2px;
 }
 .shopBtn:hover .rightArrow {
-  transform: translateX(25px);
+  transform: translateX(20px);
 }
 .shopBtn:active {
   transform: scale(0.9);
@@ -72,8 +79,6 @@
 .navbar-bottom {
   background: #FFFFFF;
   box-shadow: 0px 1px 0px #E6E6E6;
-  height: 78px;
-  padding: 20px 0;
 }
 
 .navbar-bottom .container .orderList ,
@@ -82,26 +87,81 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
+  height: 64px;
 }
-
+.navbar-bottom .container .orderList .orderItem .nav {
+  width: 500px;
+}
 .navbar-bottom .container .orderList .orderItem .nav .navList .listItem .listItemLink {
   display: flex;
-  flex-direction: row;
   align-items: center;
-  gap: 4px;
-  width: 64px;
+  gap: 5px;
+  width: 65px;
   font-family: 'Poppins';
-  font-size: 14px;
+  font-size: 15px;
   color: #808080;
+  transition: all 0.7s ease;
 }
 
 .navbar-bottom .container .orderList .orderItem .nav .navList .listItem .listItemLink:hover {
   color: #1A1A1A;
 }
 
+.navbar-bottom .container .orderList .orderItem .nav .navList .listItem {
+  position: relative;
+  padding: 18px 20px;
+}
+
+.navbar-bottom .container .orderList .orderItem .nav .navList .listItem:hover .dropdownContent ,
+.navbar-bottom .container .orderList .orderItem .iconsList .iconsItem:hover .dropdownContent {
+  display: inline-block;
+}
+.navbar-bottom .container .orderList .orderItem .iconsList .iconsItem a {
+  padding: 11px 0;
+}
+.navbar-bottom .container .orderList .orderItem .iconsList .iconsItem .dropdownContent {
+  top: 95px;
+  left: 1330px;
+  width: 100px;
+}
+
+.navbar-bottom .container .orderList .orderItem .nav .navList .listItem:hover img {
+  transform: rotate(180deg);
+}
+.dropdownContent {
+  position: absolute;
+  width: 150px;
+  top: 50px;
+  left: 20px;
+  background-color:#c0d5d5e6;
+  display: none;
+  border-radius: 0 0 10px 10px;
+  box-shadow: 0 0 5px #555;
+}
+.dropdownContent li {
+  padding: 10px;
+  width: 100%;
+  font-family: 'Poppins';
+  font-size: 14px;
+}
+.dropdownContent li a {
+  padding: 8px 0px !important;
+}
+.dropdownContent li:hover {
+  color: #fff;
+  background-color: #777;
+}
+.dropdownContent li:hover a {
+  color: #fff;
+}
+.dropdownContent li a {
+  color: #1A1A1A;
+}
 .navbar-bottom .container .orderList .orderItem .iconsList .iconsItem .phoneItem {
-  gap: 8px;
   width: 145px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 }
 
 .navbar-bottom .container .orderList .orderItem .iconsList .iconsItem .phoneItem .phoneImage {
@@ -118,6 +178,9 @@
 
 .navbar-bottom .container .orderList .orderItem .iconsList .iconsItem {
   padding-left: 20px;
+  cursor: pointer;
+  color: #000000;
+  font-size: x-large;
 }
 
 /* navbar-bottom tugadi */
