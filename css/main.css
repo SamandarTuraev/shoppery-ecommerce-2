@@ -710,7 +710,7 @@
 
 .shop_categories_2-part_text_small_1 b {
 
-  margin: 0px 300px 10px 12px;
+  margin: 0px 0px 10px 12px;
   width: 500px;
   height: 27px;
   font-family: 'Poppins';
@@ -724,7 +724,7 @@
 
 .shop_categories_2-part_text_small_1 p {
 
-  margin: 0px 302px 26px 34px;
+  margin: 0px 0px 26px 34px;
   width: 500px;
   height: 63px;
   font-family: 'Poppins';
@@ -752,7 +752,7 @@
 
 .shop_categories_2-part_text_small_2 b {
 
-  margin: 0px 296px 10px 12px;
+  margin: 0px 0px 10px 12px;
   width: 504px;
   height: 27px;
   font-family: 'Poppins';
@@ -765,7 +765,7 @@
 
 .shop_categories_2-part_text_small_2 p {
 
-  margin: 0px 300px 26px 34px;
+  margin: 0px 0px 26px 34px;
   width: 504px;
   height: 63px;
   font-family: 'Poppins';
@@ -836,9 +836,9 @@
 .testimonial{
   background-image: url(../images/Testimonials.png);
   background-repeat: no-repeat;
+  background-size: cover;
   margin: 0 auto;
-  width: 1920px;
-  height: 504px;
+  padding-left: 100px;
 }
 .testimonial .container{
 /*  background-position-x: 0px;*/
