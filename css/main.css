@@ -1097,3 +1097,179 @@
 /* \\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\ shop_categories_2-part tugadiii \\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\ */
 
 
+
+ /* Product Offer boshlandi  */
+
+ .shopping_products{
+  display: flex;
+  position: relative;
+  width: 1320px;
+  height: 432px;
+  background-color: white;
+  margin: 40px auto;
+  gap: 24px;
+}
+.shopping_products .general{
+  /* position: absolute;
+  left: 10px; */
+  margin-left: 5px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  width: 312px;
+  height: 432px;
+  gap: 16px;
+}
+.shopping_products .hot_deals .green_apple{
+  position: relative;
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  padding: 0px; 
+  width: 312px;
+  height: 116px;
+  background: #FFFFFF;
+  border: 1px solid #E6E6E6;
+  border-radius: 6px;
+}
+.three{
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  padding: 0px; 
+  width: 312px;
+  height: 116px;
+  background: #FFFFFF;
+  border: 1px solid #E6E6E6;
+  border-radius: 6px;
+}
+.shopping_products .hot_deals .green_apple .photo_greenapple{
+  width: 102px;
+  height: 102px;
+  background: gray;
+}
+.photo_indian_malta{
+  width: 102px;
+  height: 102px;
+  background: gray;
+}
+.at_all{
+  width: 102px;
+  height: 102px;
+  background: gray;
+}
+.shopping_products .hot_deals .green_apple .product_description{   
+  flex-direction: column;
+  padding: 24px 12px 25px;
+  gap: 7.5px;
+  width: 200px;
+  height: 116px;  
+}
+.shopping_products .hot_deals .green_apple .product_description .name_greenapple{
+  width: 288px;
+  height: 21px;
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 150%;
+  color: #4D4D4D;
+}
+.shopping_products .hot_deals .green_apple .product_description .cost_greenapple{
+  width: 51px;
+  height: 24px; 
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 150%;    
+  color: #1A1A1A; 
+}
+.shopping_products .hot_deals .green_apple.product_description.icons_greenapple{
+  width: 80px;
+  height: 16px;
+}
+
+
+
+
+
+
+.shopping_products.best_seller{
+  position: absolute;
+  left: 336px;
+}
+
+
+
+.shopping_products.top_rates{
+  position: absolute;
+  left: 682px;
+}
+
+
+.shopping_products .discount{ 
+  width: 312px;
+  height: 432px;
+  background-color: grey; 
+  text-transform: uppercase;
+}
+
+.shopping_products .discount .hot_sale{
+  position: absolute;
+  top: 34px;
+  width: 312px;
+  height: 12px;
+  text-align: center;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  font-size: 12px;
+}
+
+.shopping_products .discount .dicount_percent{
+  position: absolute;
+  top: 58px;
+  width: 312px;
+  height: 76px;
+  font-size: 32px;
+  font-weight: 600;
+  text-align: center;
+  color: black;
+}
+
+.shopping_products .discount .back_discount{
+  position: absolute;
+  top: 174px;
+  left: 1095px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  background-color: transparent;
+  border: transparent;
+  padding: 14px 32px;
+  gap: 12px;  
+  width: 162px;
+  height: 45px;
+  border-radius: 43px;
+  background: #FFFFFF;
+}
+
+.shopping_products .discount .btn_shop_now{
+  text-transform: uppercase;
+  background-color: transparent;
+  border: transparent;
+}
+
+.des_all{
+  padding: 25px;
+}
+
+
+
+
+
+
+ /* Product Offer tugadi */
