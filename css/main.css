@@ -6,10 +6,7 @@
   list-style: none;
   text-decoration: none;
   font-family: 'Poppins';
-
-
   font-family: 'Poppins', sans-serif;
-
 }
 
 .last-news {
@@ -445,11 +442,6 @@
 }
 
 
-
-
-
-
-
 .featured__text__container .featured__text__box__2 .viewbutton {
   font-family: 'Poppins';
   font-style: normal;
@@ -651,7 +643,7 @@
 
 
 
-/*\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\ shop_categories_2-part boshlandi \\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\ */
+/*\\\\\\\\\\\\\ shop_categories_2-part boshlandi \\\\\\\\\\\\\\\\\\\\\ */
 
 .shop_categories .shop_categories_2-part {
   display: flex;
@@ -841,8 +833,7 @@
   padding-left: 100px;
 }
 .testimonial .container{
-/*  background-position-x: 0px;*/
-  /*background-repeat: no-repeat;*/
+
   max-width: 1920px;
   height: 504px;  
 
@@ -863,7 +854,7 @@
   height: 30px;
   border-radius: 15px;
   display: inline-flex;
-  /*border: 1px solid #000;*/
+  
   padding: 2px;
 
 }
@@ -872,8 +863,7 @@
   height: 30px;
   border-radius: 15px;
   display: inline-flex;
-  /*border: 1px solid #000;*/
-  /*background: #1A1A1A;*/
+  
   padding: 2px;
   transform: rotate(180deg);
 }
@@ -1095,7 +1085,7 @@
 
 
 
-/* \\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\ shop_categories_2-part tugadiii \\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\ */
+/* \\\\\\\\\\\\\\\\\ shop_categories_2-part tugadiii \\\\\\\\\\\\\\\\\\\\\ */
 
 
 
@@ -1267,10 +1257,5 @@
 .des_all{
   padding: 25px;
 }
-
-
-
-
-
 
  /* Product Offer tugadi */
